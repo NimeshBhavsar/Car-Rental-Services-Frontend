@@ -99,7 +99,7 @@ if(e.target.id==="All"){
                     <h5 id="person" >{d.name}</h5>
               </div>
               <div id="name-container">
-                    <h5 id="name" >6 persons</h5>
+                    {/* <h5 id="name" >6 persons</h5> */}
                     <h5 id="milage"  >{d.perKm}RS/KM</h5>
               </div>
               <div id="booking">

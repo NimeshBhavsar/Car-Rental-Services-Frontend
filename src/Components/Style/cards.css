@@ -8,13 +8,13 @@
        flex-wrap: wrap;
        width:100%;
        gap:50px;
-       background-color:rgba(214, 214, 223, 0.995);
+       background-color:rgba(255, 255, 255, 0.995);
        padding-bottom: 40px;
    }
 #card-of-the-order-page-i-make-this{
 height: 250px;
 width: 300px;
-background-color: aliceblue;
+background-color: rgb(255, 255, 255);
 border-radius: 10px;
 box-shadow: 3px 3px 10px black;
 }
@@ -33,7 +33,7 @@ box-shadow: 3px 3px 10px black;
        
    }
    #person{
-       color: rgb(111, 101, 101);
+       color: rgb(255, 255, 255);
        font-weight: 800;
        margin:0;
        position: relative;
@@ -41,7 +41,7 @@ box-shadow: 3px 3px 10px black;
        border: 1px solid rgb(152, 142, 142);
        width:300px;
        background-color: #ff9933;
-       color: rgb(229, 235, 241);
+       /* color: rgb(229, 235, 241); */
        border-radius: 2px;
        text-align: center;
        font-family: sans-serif;
@@ -88,6 +88,7 @@ box-shadow: 3px 3px 10px black;
    #seater{
        width:15rem;
        height: 30px;
+       color: white;
    }
    #booking{
        width:100%;
@@ -114,9 +115,16 @@ box-shadow: 3px 3px 10px black;
    .img-of-te-car-details-order{
     width: 100%;
     height: 150px;
+    
     text-align: center;
    }
    #img-of-the-car-order{
-height: 100%;
+height: 150px;
+
+width: 300px;
+padding-left: 5%;
+padding-right: 5%;
+border-radius: 5%;
+
    }
    
