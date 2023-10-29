@@ -52,7 +52,7 @@ export default function AdminPage() {
     }} id="button-ok-for-th-delee-things">{ok}</span></div>}
       <div id="main-container">
             {
-                car.map((d, i) => {
+                car.reverse().map((d, i) => {
                     return<> <div key={i} id="car-container">
                         <div id="img-container">
                               <img src={`https://car-rental-app-server.onrender.com/cars/${d.image}`} id="car-img" alt="img-car" 
