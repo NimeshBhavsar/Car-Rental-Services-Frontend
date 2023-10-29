@@ -1,0 +1,34 @@
+#admin-page-nav-container-my-nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(17, 32, 59);
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+#img-logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 90px;
+    float:left;
+    
+}
+#logout-admin-page-butn-admin{
+ margin-right: 60px;   
+ background-color: rgb(52, 79, 127);
+ color: white;
+ font-size: large;
+ border-radius: 10px;
+ font-weight: bold;
+ width: 140px;
+}
+#name-of-the-app-rental-car-app{
+margin-left: 15px;
+font-size:40px;
+padding-top: 20px;
+align-self: center;
+font-weight: bolder;  
+text-shadow: 1px 1px 2px black;
+color: rgb(255, 255, 255);
+}
